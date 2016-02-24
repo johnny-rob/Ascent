@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Contact</title>
+        <link rel="stylesheet" href="css/contact.css">
+    </head>
+    <body>
+        
+        <!--Header -->
+        <div id="container">
+            <h1>Contact Ascent</h1> 
+        </div>
+        
+        <div id="words">
+                <p>Thanks for reaching out!  To contact us, please fill out your information in the form below and we will be in touch asap!</p>
+        </div>
+        
+        <div class="clear"></div>
+        
+        <!--Form-->
+        <div id="form">
+            <form method="post" action="contact-us.php">
+                <fieldset>
+                    <label for="firstname"> </label><input id="firstname" type="text" name="firstname" placeholder="First Name">
+                    <label for="lastname"> </label><input id="lastname" type="text" name="lastname" placeholder="Last Name">
+                    <br>
+                    <label for="email"> </label><input id="email" type="text" name="email" pattern="[a-zA-Z]{3,}@[a-zA-Z]{3,}[.]{1}[a-zA-Z]{2,}" title="Please enter in a valid email address: example@example.com" placeholder="youremail@example.com">
+                    <br>
+                    <textarea name="message" placeholder="type your message here"></textarea>
+                    <br>
+                    <a href="#"><input type="image" src="images/submitButton.png" alt="Submit"></a>
+                </fieldset>
+            </form>
+         </div>
+        
+        <div class="clear"></div>
+        
+        <!--Footer-->
+            <footer>
+                <p>Copyright Ascent, LLC</p>
+            </footer>
+    </body>
+</html>
